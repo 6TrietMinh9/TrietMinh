@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Sidebar Menu</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- Icons -->
+    <link href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="sidebar">
+      <!-- Logo: Start -->
+      <div class="logo-content">
+        <div class="logo">
+          <i class="bx bxl-c-plus-plus"></i>
+          <div class="logo__name">CodingLab</div>
+        </div>
+        <i class="bx bx-menu" id="btn"></i>
+      </div>
+      <!-- Logo: End -->
+
+      <!-- List: Start -->
+      <ul class="nav-list">
+        <!-- 1 -->
+        <li>
+          <i class="bx bx-search"></i>
+          <input type="text" placeholder="Search..." />
+          <span class="tooltip">Search</span>
+        </li>
+
+        <!-- 2 -->
+        <li>
+          <a href="#">
+            <i class="bx bx-grid-alt"></i>
+            <span class="links-name">Dashbroad</span>
+          </a>
+          <span class="tooltip">Dashbroad</span>
+        </li>
+
+        <!-- 3 -->
+        <li>
+          <a href="#">
+            <i class="bx bx-user"></i>
+            <span class="links-name">User</span>
+          </a>
+          <span class="tooltip">User</span>
+        </li>
+
+        <!-- 4 -->
+        <li>
+          <a href="#">
+            <i class="bx bx-chat"></i>
+            <span class="links-name">Messages</span>
+          </a>
+          <span class="tooltip">Messages</span>
+        </li>
+
+        <!-- 5 -->
+        <li>
+          <a href="#">
+            <i class="bx bx-pie-chart-alt-2"></i>
+            <span class="links-name">Analytics</span>
+          </a>
+          <span class="tooltip">Analytics</span>
+        </li>
+
+        <!-- 6 -->
+        <li>
+          <a href="#">
+            <i class="bx bx-folder"></i>
+            <span class="links-name">File Manager</span>
+          </a>
+          <span class="tooltip">File Manager</span>
+        </li>
+
+        <!-- 7 -->
+        <li>
+          <a href="#">
+            <i class="bx bx-cart-alt"></i>
+            <span class="links-name">Order</span>
+          </a>
+          <span class="tooltip">Order</span>
+        </li>
+
+        <!-- 8 -->
+        <li>
+          <a href="#">
+            <i class="bx bx-heart"></i>
+            <span class="links-name">Saved</span>
+          </a>
+          <span class="tooltip">Saved</span>
+        </li>
+
+        <!-- 9 -->
+        <li>
+          <a href="#">
+            <i class="bx bx-cog"></i>
+            <span class="links-name">Setting</span>
+          </a>
+          <span class="tooltip">Setting</span>
+        </li>
+      </ul>
+      <!-- List: End -->
+
+      <!-- Profile: Start -->
+      <div class="profile-content">
+        <div class="profile">
+          <div class="profile-details">
+            <img src="./assets/img/Profile.jpg" alt="" />
+
+            <div class="name-job">
+              <div class="name">Triet Minh</div>
+              <div class="job">Wed Developer</div>
+            </div>
+          </div>
+          <i class="bx bx-log-out" id="log-out"></i>
+        </div>
+      </div>
+      <!-- Profile: End -->
+    </div>
+
+    <div class="home-content">
+      <div class="text">Home Content</div>
+    </div>
+
+    <!-- JS -->
+    <script src="./main.js"></script>
+  </body>
+</html>
